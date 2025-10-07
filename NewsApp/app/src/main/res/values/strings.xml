@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="titulo1">Titulo1</string>
+    <string name="titulo2">Titulo2</string>
+    <string name="titulo3">Titulo3</string>
+    <string name="subtitulo1">subTitulo1</string>
+    <string name="subtitulo2">subTitulo2</string>
+    <string name="subtitulo3">subTitulo3</string>
+    <string name="escritor1">Escritor1</string>
+    <string name="escritor2">Escritor2</string>
+    <string name="escritor3">Escritor3</string>
+</resources>
