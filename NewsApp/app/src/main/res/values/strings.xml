@@ -1,12 +1,42 @@
 <resources>
     <string name="app_name">NewsApp</string>
-    <string name="titulo1">Titulo1</string>
-    <string name="titulo2">Titulo2</string>
-    <string name="titulo3">Titulo3</string>
-    <string name="subtitulo1">subTitulo1</string>
-    <string name="subtitulo2">subTitulo2</string>
-    <string name="subtitulo3">subTitulo3</string>
-    <string name="escritor1">Escritor1</string>
-    <string name="escritor2">Escritor2</string>
-    <string name="escritor3">Escritor3</string>
+    <!-- CULTURA -->
+    <string name="titulo1">Ancient Potatoes Discovered in Library</string>
+    <string name="titulo2">Sculpture of Cat Becomes Mayor</string>
+    <string name="titulo3">Opera Sung Entirely in Duck Quacks</string>
+
+    <string name="subtitulo1">Librarians unsure how to shelve them</string>
+    <string name="subtitulo2">Town council in pawsitive spirits</string>
+    <string name="subtitulo3">Audience waddles out delighted</string>
+
+    <string name="escritor1">Dr. Spud McTater</string>
+    <string name="escritor2">Whiskers O’Meow</string>
+    <string name="escritor3">Quentin Quack</string>
+
+    <!-- POLITICA -->
+    <string name="titulo4">Mayor Declares Pizza as National Currency</string>
+    <string name="titulo5">Senate Passes Law Requiring Pajamas at Work</string>
+    <string name="titulo6">City Council Holds Meeting on Moon Cheese Trade</string>
+
+    <string name="subtitulo4">Economists confused but hungry</string>
+    <string name="subtitulo5">Business casual now strictly flannel</string>
+    <string name="subtitulo6">Aliens yet to respond</string>
+
+    <string name="escritor4">Cheesy McToppings</string>
+    <string name="escritor5">Sleepy McCommittee</string>
+    <string name="escritor6">Luna Cheddar</string>
+
+    <!-- ESPORTS -->
+    <string name="titulo7">Pro Gamer Loses Match to Cat</string>
+    <string name="titulo8">Streamer Sets Record for Longest Nap Mid-Game</string>
+    <string name="titulo9">Virtual Reality Headset Mistaken for Helmet</string>
+
+    <string name="subtitulo7">Cat’s reflexes undeniable</string>
+    <string name="subtitulo8">Fans cheer from sleep-deprived couches</string>
+    <string name="subtitulo9">Local toddler joins tournament by accident</string>
+
+    <string name="escritor7">Pixel Paws</string>
+    <string name="escritor8">SnoozeMaster9000</string>
+    <string name="escritor9">Tiny Gamer</string>
+
 </resources>
