@@ -77,6 +77,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun NewsApp(modifier: Modifier){
 
+    val bgColor = Color(0xFF2B2B2B)
     val layOutDirection = LocalLayoutDirection.current
 
     Surface(modifier = modifier
@@ -89,7 +90,7 @@ fun NewsApp(modifier: Modifier){
             end = WindowInsets.safeDrawing
                 .asPaddingValues()
                 .calculateEndPadding(layOutDirection)
-        )){
+        ), color = bgColor){
 
         NoticiasPorTema(noticias = DataLoader().loadNews())
 
@@ -132,7 +133,8 @@ fun NoticiasPorTema(noticias: List<Noticias>) {
                 onClick = { if (currentIndex > 0) currentIndex-- },
                 enabled = currentIndex > 0, colors = ButtonDefaults.buttonColors(
                     containerColor = bColor,
-                    contentColor = Color.White
+                    contentColor = Color.White,
+                    disabledContainerColor = Color.White
                 )
             ) {
                 Text("<-", fontSize = 45.sp)
@@ -142,7 +144,8 @@ fun NoticiasPorTema(noticias: List<Noticias>) {
                 onClick = { if (currentIndex < temas.size - 1) currentIndex++ },
                 enabled = currentIndex < temas.size - 1, colors = ButtonDefaults.buttonColors(
                     containerColor = bColor,
-                    contentColor = Color.White
+                    contentColor = Color.White,
+                    disabledContainerColor = Color.White
                 )
             ) {
                 Text("->", fontSize = 45.sp)
